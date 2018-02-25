@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style type="text/css">
+				a{
+					width: 200px;
+					height: 200px;
+					display: block;
+					/*手指点击高亮显示，transparent表示透明*/
+					-webkit-tap-highlight-color:transparent;
+					/*保证内容的不变*/
+					box-sizing:content-box;
+					/*保证盒子的大小不会变，但是内容可能会变*/
+					box-sizing:border-box;
+				}
+				input{
+					border:0;
+					width: 100px;
+					height: 100px;
+					background-color: skyblue;
+					/*去除浏览器给input标签添加的额外样式*/
+					-webkit-apperance:none;
+
+
+				}
+				/*移动端开发如果想限制某个元素的大小 需要max-width、min-width*/
+
+				/*移动端为了在宽度上的能适配一般是使用百分比宽度*/
+				/*高度方向上页面的高度是由内容撑开的所以高度还是使用具体的值*/
+				
+		</style>
+	</head>
+	<body>
+		<div><a href="#">this</a></div>
+		<input type="text" value="这是一个按钮"/>
+	</body>
+</html>

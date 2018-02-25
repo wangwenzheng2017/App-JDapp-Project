@@ -1,0 +1,57 @@
+/*
+* @Author: mark
+* @Date:   2018-02-20 20:52:38
+* @Last Modified by:   mark
+* @Last Modified time: 2018-02-20 21:06:07
+*/
+*,
+::before,
+::after{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+
+	/*delete click highlight */
+	-webkit-tap-highlight-color:transparent;
+	
+	/* 盒子模型 */
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/* 同一设置文字字体 */
+	font-family: '微软雅黑',sans-serif;
+}
+/* input去掉默认样式 */
+input{
+	border:none;
+	-webkit-appearance:none;
+}
+/*去掉 a标签的下划线 */
+a{
+	text-decoration:none;
+}
+/* 去掉小圆点 */
+ol,ul{
+	list-style: none;
+}
+/* 浮动 */
+.f_l{
+	float: left;
+}
+.f_r{
+	float: right;
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after{
+	content: '';
+	display: block;
+	line-height: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+
+
+
