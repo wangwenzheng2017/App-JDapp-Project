@@ -2,7 +2,7 @@
 * @Author: mark
 * @Date:   2018-02-20 20:52:38
 * @Last Modified by:   mark
-* @Last Modified time: 2018-02-20 21:06:07
+* @Last Modified time: 2018-02-28 20:47:42
 */
 *,
 ::before,
@@ -52,6 +52,18 @@ ol,ul{
 	clear: both;
 }
 
-
+/* 边框的样式 */
+.b_l{
+	border-left: 1px solid #eee;
+}
+.b_r{
+	border-right: 1px solid #eee;
+}
+.b_t{
+	border-top: 1px solid #eee;
+}
+.b_b{
+	border-bottom: 1px solid #eee;
+}
 
 
